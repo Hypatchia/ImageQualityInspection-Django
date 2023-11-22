@@ -1,0 +1,316 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Product Inspection</title>
+     <!-- Favicon-->
+     <link rel="icon" type="image/x-icon" href="{% static 'ClassifierModel/favicon.ico'%}"/>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- lib CSS Files -->
+  <link href="{% static 'ClassifierModel/lib/bootstrap/css/bootstrap.min.css'%}" rel="stylesheet">
+  <link href="{% static 'ClassifierModel/lib/icofont/icofont.min.css'%}" rel="stylesheet">
+  <link href="{% static 'ClassifierModel/lib/boxicons/css/boxicons.min.css'%}" rel="stylesheet">
+  <link href="{% static 'ClassifierModel/lib/venobox/venobox.css'%}" rel="stylesheet">
+  <link href="{% static 'ClassifierModel/lib/owl.carousel/assets/owl.carousel.min.css'%}" rel="stylesheet">
+  <link href="{% static 'ClassifierModel/lib/aos/aos.css'%}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{% static 'ClassifierModel/css/mystyle.css'%}" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Ninestars - v2.0.0
+  * Template URL: https://bootstrapmade.com/ninestars-free-bootstrap-3-theme-for-creative/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container-fluid d-flex">
+
+      <div class="logo mr-auto">
+        <h1 class="text-light"><a href=""><span>Product Inspection</span></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="#home">Home</a></li>
+          <li><a href="https://www.youtube.com/watch?v=60Sk-mq3Cr8">Product Inspection</a></li>
+          <li><a href="https://github.com/Hypatchia/ProductInspection">Github</a></li>
+        
+     
+          <li class="get-started"><a href="https://samiabelhaddad.me">Samia BELHADDAD</a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+
+   
+      <div class="row-intro">
+        <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1">
+          <h1>Product Inspection</h1>
+          <h2>Computer Vision based Inspection <br> Broken {0} - Flawed {1} - Good {2} - </h2>
+          <p>Experience real-time inference through the web application built in django & hosted on Azure.</p>
+          <a href="#try" class="btn-get-started scrollto">Try App</a>
+          <a href="https://github.com/Hypatchia/ProductInspection" class="btn-get-started scrollto">Github</a>
+        
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 ">
+          <img src="{% static 'ClassifierModel/images/image.jpg'%}" class="intro-img animated" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about" >
+        <div class="row-about ">
+          <div class="col-lg-6 pt-5 pt-lg-0">
+            <h3 data-aos="fade-up">About System</h3>
+            <div class="row">
+           
+            <p data-aos="fade-up" data-aos-delay="100">
+             
+                This tool designed to inspect and classify a manufactured product into one
+                 of three categories: "Good," "Flawed," or "Broken."     </p>
+              
+                <p>
+                  It takes Images of newly manufactured products as input and outputs a prediction of the product's condition.
+               
+                    It is based on Deep Learning and Computer Vision.</p>
+
+          </div>
+              </div>
+        </div>
+              <div class="row-about ">
+                <div class="col-lg-6 pt-5 pt-lg-0">
+                  <h3 data-aos="fade-up">Features</h3>
+                  <div class="row" data-aos="fade-up" data-aos-delay="100">
+                 
+                  <p> - Real-time Decision Making by providing the ability to insert an image and get the real time inference result.  <br> - Highly accurate model in the identification of product conditions
+                 
+                     <br>- The model is trained on over 1000 real product images<br>
+                  - Easy and Simple to use Web Interface <br>
+                   - Modle is ready to be integrated in a production line.</p>
+                       
+                        
+                 
+                
+                </div>
+                </div></div>
+              <div class="row">
+              <div data-aos="fade-up" data-aos-delay="100">
+                <i class="bx bx-receipt"></i>
+                <h4>In a production lines,</h4>
+                <p>
+                     The system inspects products as they move along a conveyor belt.</p>
+                    <p>A camera captures images of these products, which are then analyzed by the machine learning model,<br> to determine their condition.</p>  
+                    <p> - If a product is in good condition, it proceeds along the conveyor belt.</p></li>
+                   <p> - If a product exhibits flaws, it is categorized as "Flawed" and removed from the production line.</p>
+                    <p> - If a product is severely damaged, it is marked as "Broken" and removed from the production line.</p>
+                     <p>- Products without any defects are classified as "Good" and are prepared for shipment to customers.</p>
+                   
+          
+                  </div>
+           
+                  </div>
+               
+                        <div class="row">
+                          <div data-aos="fade-up" data-aos-delay="100">
+                            <i class="bx bx-receipt"></i>
+                            <h4>In This Demonstration:</h4>
+                            <p>
+                              The system provides real-time inference through a web application developed in Django.</p>
+                              <p>The web app is deployed on Azure for accessibility.</p>
+                             </div>
+                       
+                              </div>
+
+         
+      </div>
+
+      
+    </section><!-- End About Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="try" class="services section-bg">
+   
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Inspect</h2>
+          <p>Try the System</p>
+        </div>
+
+        <div class="row-about-project">
+
+          <div class="" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+
+               
+             
+              <p class="description">
+<ul>
+
+<li>Click the "Choose File" button to upload an image of the product for analysis.</li>
+
+<li> After selecting the image, click "Upload and Predict."</li>
+<li>The system utilizes a pre-trained CNN model for multiclass classification based on the image.
+<li>The output will be displayed, indicating whether the product is "Good," "Flawed," or "Broken."</li>
+<li>Users can also access prediction probabilities to gauge the model's confidence in its assessment.</li>
+
+</ul>
+
+
+  <form method="post" enctype="multipart/form-data" action="{% url 'upload_image' %}">
+    {% csrf_token %}
+    {{ form.image }}
+    <div id="imagePreview"></div><br>
+    <input type="submit" class="get-started" value="Upload and Predict">
+  </form>
+    <div id="prediction-result" style="display: none;">
+        <h4>Predicted Class</h4>
+        <p class="prediction" id="prediction-label"></p>
+        <h4>Class Probabilities</h4>
+        <p>Probability of Product being Broken</p>
+        <pre id="prediction-probabilityBroken"></pre>
+        <br>
+        <p>Probability of Product being Flawed</p>
+        <pre id="prediction-probabilityFlawed"></pre>
+        <br>
+        <p>Probability of Product being Good</p>
+        <pre id="prediction-probabilityGood"></pre>
+    </div>
+            
+              <img src="" class="img-fluid animated" alt="">
+   
+            </div>
+          </div>
+        </div>
+ 
+    </section><!-- End Services Section -->
+
+    <!-- ======= F.A.Q Section ======= -->
+    <section id="faq" class="faq section-bg">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>F.A.Q</h2>
+          <p>Frequently Asked Questions</p>
+        </div>
+
+        <ul class="faq-list">
+
+          <li data-aos="fade-up" data-aos-delay="100">
+            <a data-toggle="collapse" class="" href="#faq1"> What image format to uplaod? <i class="icofont-simple-up"></i></a>
+            <div id="faq1" class="collapse show" data-parent=".faq-list">
+              <p>
+               The system works with both jpg and png images, and other formats      </p>
+            </div>
+          </li>
+
+          <li data-aos="fade-up" data-aos-delay="200">
+            <a data-toggle="collapse" href="#faq2" class="collapsed">What is the Technology behind this Tool?<i class="icofont-simple-up"></i></a>
+            <div id="faq2" class="collapse" data-parent=".faq-list">
+              <p>
+                The Deep Learning model is a CNN that is trained on over 1000 real product images.<br>
+                The Webpage is designed and developed using Django Framework, HTML, CSS, and JavaScript.<br>
+                It is deployed to Azure Web App Service.
+
+                </p>
+            </div>
+          </li>
+
+          <li data-aos="fade-up" data-aos-delay="300">
+            <a data-toggle="collapse" href="#faq3" class="collapsed">How accurate is the System?<i class="icofont-simple-up"></i></a>
+            <div id="faq3" class="collapse" data-parent=".faq-list">
+              <p>
+              The average accuracy is 83% </p>
+            </div>
+          </li>
+
+          <li data-aos="fade-up" data-aos-delay="400">
+            <a data-toggle="collapse" href="#faq4" class="collapsed">What kind of precessing do the images go through? <i class="icofont-simple-up"></i></a>
+            <div id="faq4" class="collapse" data-parent=".faq-list">
+              <p>
+               The Images are resized to an appropriate size and then converted to grayscale. </p>
+            </div>
+          </li>
+
+          <li data-aos="fade-up" data-aos-delay="500">
+            <a data-toggle="collapse" href="#faq5" class="collapsed">What Tools where used in this?<i class="icofont-simple-up"></i></a>
+            <div id="faq5" class="collapse" data-parent=".faq-list">
+              <p>
+                Python - Tensorflow Keras - Django - Azure - HTML - CSS - JavaScript 
+                 </p>
+            </div>
+          </li>
+
+          
+
+        </ul>
+
+      </div>
+    </section><!-- End F.A.Q Section -->
+
+  </main>
+  <!-- ======= Footer ======= -->
+  <footer id="footer py-5">
+
+    <div class="container py-4">
+
+      <div class="d-flex mr-l-5 social">
+        <a class="btn btn-outline-dark btn-social mr-2" href="mailto:samiamagbelhaddad@gmail.com"><i class="fa fa-envelope"></i></a>
+        <a class="btn btn-outline-dark btn-social mr-2" href="tel:+213541325492"><i class="fab fa-whatsapp"></i></a>
+        <a class="btn btn-outline-dark btn-social mr-2 " href="https://github.com/Hypatchia"><i class="fab fa-github"></i></a>
+        <a class="btn btn-outline-dark btn-social mr-2" href="https://www.linkedin.com/in/samiabelhaddad/"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+      
+
+    </div>
+    <div class="container py-4 copyright">
+      Copyright <strong><span>Samia </span></strong>. All Rights to Project are Reserved, 2023<br> 
+    </div>
+      <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+
+  </footer><!-- End Footer -->
+
+
+  <!-- lib JS Files -->
+  <script src="{% static 'ClassifierModel/lib/jquery/jquery.min.js'%}"></script>
+  <script src="{% static 'ClassifierModel/lib/bootstrap/js/bootstrap.bundle.min.js'%}"></script>
+  <script src="{% static 'ClassifierModel/lib/jquery.easing/jquery.easing.min.js'%}"></script>
+  <script src="{% static 'ClassifierModel/lib/isotope-layout/isotope.pkgd.min.js'%}"></script>
+  <script src="{% static 'ClassifierModel/lib/venobox/venobox.min.js'%}"></script>
+  <script src="{% static 'ClassifierModel/lib/owl.carousel/owl.carousel.min.js'%}"></script>
+  <script src="{% static 'ClassifierModel/lib/aos/aos.js'%}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'ClassifierModel/js/script.js'%}"></script>
+
+</body>
+</html>
+
