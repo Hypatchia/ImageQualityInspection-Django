@@ -32,7 +32,7 @@ azure_blob_service_client = BlobServiceClient.from_connection_string(AZURE_BLOB_
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-b^++$%3gi(l=och0t1x@&!kkh$3_y*)tm21@c57=-cjwzl8qu1'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
